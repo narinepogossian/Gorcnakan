@@ -1,0 +1,54 @@
+#gorcnakan mek
+1)def name(name):
+    return name
+    
+def address(address):
+    return address
+    
+r = input('The name is: ')
+k = input('The address is: ')
+print(f'You are {name(r)} from {address(k)} ')
+
+
+2)l = input('What is ur name? :')
+print(f'Hi ,{l} jan')
+
+3)def makeres(erk:float,layn:float):
+    return erk*layn
+    
+l = float(input('Write the length: '))
+k = float(input('Write the width: '))
+print(f'The floor of the room is {makeres(l,k)} m*m')
+
+4)def makeres(erk:int,layn:int):
+    return (erk*layn)/43560
+    
+l = int(input('Write the length: '))
+k = int(input('Write the width: '))
+print(f'The floor of the land is {makeres(l,k)} ')
+
+5)def sum(qanak1:int,qanak2:int):
+    return (qanak1 * 0.10 + qanak2 * 0.25)
+    
+l = int(input('Write the number of 1 litr bottles: '))
+k = int(input('Write the number of 1+ litr bottles: '))
+print(f'The sum of your bottles is ${sum(l,k)} ')
+
+6)def amount(shyot):
+    return (shyot + shyot*0.18 + shyot* 0.2)
+    
+l = int(input('Write the sum of your ordered food: '))
+print(f'The sum of your order is {round(amount(l),2)}: ')
+print(f'The tax of your order is: {l*0.18}')
+print(f'The tip of your order is {l*0.2}')
+
+7)def sum_of_nums(num):
+    count = num
+    sum = 0
+    while count >= 1:
+        sum = sum + count
+        count -= 1
+    return sum 
+    
+l = int(input('Write your number: '))
+print(f'The sum of from 1 to that number is {sum_of_nums(l)}: ')
